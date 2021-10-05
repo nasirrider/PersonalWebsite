@@ -173,11 +173,11 @@ padding:30px;}
   <header> 
  <a href="https://imgur.com/yenESMQ"><img src="https://i.imgur.com/yenESMQ.png" title="ink" /></a>
     
-   <div id="front">
-  <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/d261d561fe56a40e9c84374865da312822e652dc/Home"> <button class="home_button">Home</button> </a>
+  <div id="front">
+  <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/9cba179837ba4b481e9accb9fe219e0488417f81/Home"> <button class="home_button">Home</button> </a>
   <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/40f645faf766e0b04a25eb28f23be39f2aa26938/Artist"><button class="artist_button">Artist</button> </a>
   <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/40f645faf766e0b04a25eb28f23be39f2aa26938/About%20Us"><button class="aboutus_button">About Us</button></a>
-  <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/40f645faf766e0b04a25eb28f23be39f2aa26938/Contact">Contact</button> </a>
+  <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/main/Contact"><button class="contact_button>Contact</button> </a>
   </div>
     
     </header>
