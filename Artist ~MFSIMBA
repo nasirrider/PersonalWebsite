@@ -162,10 +162,10 @@ padding:30px;}
  <a href="https://imgur.com/yenESMQ"><img src="https://i.imgur.com/yenESMQ.png" title="ink" /></a>
     
     <div id="front">
-   <a href="https://codepen.io/NRider/full/mdwjqzj"> <button class="home_button">Home</button> </a>
-   <a href="https://codepen.io/NRider/full/YzQdmBx"><button class="artist_button">Artist</button></a>
-    <a href="https://codepen.io/NRider/full/QWgRzYg"><button class="aboutus_button">About Us</button></a>
-    <a href="https://codepen.io/NRider/full/JjJqeWW"><button class="contact_button">Contact</button> </a>
+  <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/9cba179837ba4b481e9accb9fe219e0488417f81/Home"> <button class="home_button">Home</button> </a>
+  <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/40f645faf766e0b04a25eb28f23be39f2aa26938/Artist"><button class="artist_button">Artist</button> </a>
+  <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/40f645faf766e0b04a25eb28f23be39f2aa26938/About%20Us"><button class="aboutus_button">About Us</button></a>
+  <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/main/Contact"><button class="contact_button">Contact</button> </a>
   </div>
     
     </header>
