@@ -80,7 +80,7 @@ main {margin-top:150px;
       box-sizing:border-box;
       background-color:black;
       height: 1000px;
-  width:1730px; 
+  width:100%; 
 }
 h3 { 
   font-family:diskoteque;
