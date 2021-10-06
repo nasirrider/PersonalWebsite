@@ -80,7 +80,7 @@ main {margin-top:150px;
   color:black;
   background-color:#9c89ab;
   height:1000px;
-      width:1730px;
+      width:100%;
       display:flex;
   
 }
