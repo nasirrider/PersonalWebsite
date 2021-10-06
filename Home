@@ -1,0 +1,278 @@
+<style> 
+header {
+  height:800px;
+  
+}
+
+.home_button {color:black;
+  background-color:orange;
+  font-family:diskoteque;
+  font-size:60px;
+  positon:absolute;
+  display:flex;
+  padding:10px;
+  border: 4px solid;
+  cursor:pointer;
+  transition: color 0.4s linear;
+  min-width:160px;
+  margin:10px
+  }
+
+.home_button:hover{
+  color:#9c89ab;
+}
+
+.artist_button {color:purple;
+  background-color:black;
+  font-family:diskoteque;
+  font-size:60px;
+  positon:absolute;
+  display:flex;
+  padding:10px;
+  border: 4px solid;
+  cursor:pointer;
+  transition: color 0.4s linear;
+  min-width:190px;
+  margin:10px
+    
+}
+
+.artist_button:hover{
+  color:orange;}
+
+.aboutus_button {color:brown;
+  background-color:#9c89ab;
+  font-family:diskoteque;
+  font-size:60px;
+  positon:absolute;
+  display:flex;
+  padding:10px;
+  border: 4px solid;
+  cursor:pointer;
+  transition: color 0.4s linear;
+  margin:10px;
+}
+
+.aboutus_button:hover{
+  color:#35e886;}
+
+.contact_button {color:green;
+  background-color:purple;
+  font-family:diskoteque;
+  font-size:60px;
+  positon:absolute;
+  display:flex;
+  padding:10px;
+  border: 4px solid;
+  cursor:pointer;
+  transition: color 0.4s linear;
+  margin:10px;
+}
+
+.contact_button:hover{
+  color:#113ded;}
+
+img {
+      height:600px;
+      width:600px;}
+
+main {margin-top:150px;
+      padding:20px;
+      box-sizing:border-box}
+h3 { 
+  font-family:diskoteque;
+  font-size:60px;
+ }
+h4 {
+  font-family:diskoteque;
+  font-size:90px;
+  positon:absolute;
+  display:flex;
+  padding:30px;
+  align-items:flex-start;
+  color:#260b80;
+ }
+body {
+  background: #FFFDD0;
+  color: black;
+  text-align: center;
+  height:1300px;
+  margin:0;}
+
+#front {
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin:10px;
+  
+}
+#AOTD {
+  padding:30px;
+  positon:relative;
+  display:flex;
+  justify-content:flex-start;
+  
+ }
+.slideshow { 
+  width:100%;
+  height:100vh;
+  position:relative;
+  overflow:hidden;}
+
+.slideshow-item {
+  width:inherit;
+  height:inherit;
+  position:absolute;
+  opacity:0;
+  animation: cycleImages 31s infinite;
+  }
+
+.slideshow-item img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  animation: zoom 31s infinite;
+}
+
+.slideshow-item:nth-child(1){
+  animation-delay:0s
+}
+.slideshow-item:nth-child(2){
+  animation-delay:10s
+}
+.slideshow-item:nth-child(3){
+  animation-delay:20s
+}
+.slideshow-item-text{
+  max-width:50%;
+  position:absolute;
+  top:50%;
+  left:0%;
+  transform:translateY(-50%);
+  background-color: rgba(0,0,0,.8);
+  color:orange;
+  padding:10rem 5rem;
+  }
+
+.slideshow-item-text h5 {
+  font-size:5rem;
+font-family:diskoteque;
+text-transform:uppercase;
+letter-spacing:3px;
+margin-bottom:2.5rem;}
+
+.slideshow-item-text p {
+  font-size:1.6rem;
+font-family:JetBrains Mono;
+letter-spacing:1px;}
+
+@keyframes cycleImages {
+  25% { opacity:1;}
+  
+  
+  40% {opacity:0;}
+}
+@keyframes zoom {
+  100% {
+    transform:scale(1.3);
+  }
+}
+@media screen and (max-width:1000px) {
+  .slideshow-item-text{
+  max-width:70%;
+    padding:5rem 1rem;}
+  .slideshow-item-text h5 {
+    font-size:4rem;
+  }
+    
+}
+
+@media screen and (max-width:767px) {
+  .slideshow-item-text{
+  max-width:100%;
+    padding:2rem;
+  top:initial;
+  transform:initial;
+  bottom:0;}
+  .slideshow-item-text h5 {
+    font-size:3rem;
+  }
+    .slideshow-item-text p {
+    font-size:1.4rem;
+  }
+}
+footer {
+  height:100px;
+padding:30px;}
+</style>
+<html>
+  <head> 
+    
+    <link href="http://fonts.cdnfonts.com/css/diskoteque" rel="stylesheet"> 
+  
+  </head>
+  <body>
+  <header> 
+    
+    <a href="https://imgur.com/yenESMQ"><img src="https://i.imgur.com/yenESMQ.png" title="source: imgur.com" /></a>
+    
+     <div id="front">
+   <a href="https://codepen.io/NRider/full/mdwjqzj"> <button class="home_button">Home</button> </a>
+   <a href="https://codepen.io/NRider/full/YzQdmBx"><button class="artist_button">Artist</button> </a>
+  <a href="https://codepen.io/NRider/full/QWgRzYg"><button class="aboutus_button">About Us</button></a>
+   <a href="https://codepen.io/NRider/full/JjJqeWW"><button class="contact_button">Contact</button> </a>
+  </div>
+    
+    </header>
+<main>
+  
+
+  
+  
+  <h4> AOTD: Artists of the Day ~ their soul </h4>
+ <div id="AOTD"> 
+   
+   <iframe style="border: 0; width: 350px; height: 621px;" src="https://bandcamp.com/EmbeddedPlayer/album=4044098722/size=large/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://dangrwlf.bandcamp.com/album/mini-dreams-2">mini dreams by dangr.</a></iframe> 
+   
+  <iframe style="border: 0; width: 350px; height: 687px;" src="https://bandcamp.com/EmbeddedPlayer/album=1230458060/size=large/bgcol=ffffff/linkcol=f171a2/transparent=true/" seamless><a href="https://dangrwlf.bandcamp.com/album/komp-vol-1">KOMP [vol.1] by dangr.</a></iframe>
+   
+   <iframe style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=3969342220/size=large/bgcol=333333/linkcol=9a64ff/transparent=true/" seamless><a href="https://mfsimba.bandcamp.com/album/the-diamond-realm">The Diamond Realm by MFSIMBA</a></iframe>
+   
+   <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=3467347929/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://mfsimba.bandcamp.com/track/die-for-me">DIE FOR ME! by MFSIMBA</a></iframe>
+   
+   <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1777375400/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://kamdela.bandcamp.com/track/summer">Summer? by Kam DeLa</a></iframe>
+   
+   
+  
+  </div>
+ 
+  <div class="slideshow"> 
+    <div class="slideshow-item"> 
+    <img src="https://i.imgur.com/wgbpjf4.jpg" title="source: imgur.com"> <div class="slideshow-item-text"> <h5>dangr.</h5> <p>South Jersey native beat maker and 90's sample flipper.</p>
+                                                               </div>
+    </div>
+  
+    <div class="slideshow-item"> 
+    <img src="https://i.imgur.com/3BSjyfX.jpg" title="source: imgur.com"> <div class="slideshow-item-text"> <h5>MFSIMBA</h5> <p>breakcore artist from Framingham, Massachusetts. Also, an advid Guilty Gear and SMT stan.</p>
+    
+    </div>
+    </div>
+    
+        <div class="slideshow-item"> <img src="https://i.imgur.com/EITQbQ7.jpg" title="source: imgur.com"> <div class="slideshow-item-text"> <h5>Kam DeLa</h5> <p>The biggest coleslaw enthusiast in NJ</p>
+    
+    </div>
+    </div>
+    </div>
+  
+  
+ 
+    </main>
+ 
+  
+        <footer>
+	
+		</footer>   
+    
+</body>
+
+</html> 
