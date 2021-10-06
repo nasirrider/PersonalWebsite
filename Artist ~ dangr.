@@ -184,7 +184,7 @@ padding:30px;}
     
    <div id="front">
   <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/2cba48adee8cd12c4697cade66118366706f3303/Home"> <button class="home_button">Home</button> </a>
-  <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/2cba48adee8cd12c4697cade66118366706f3303/Artist"><button class="artist_button">Artist</button> </a>
+  <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/ff6a06a649459accbb0dfd505fcfb407f002aae9/Artist"><button class="artist_button">Artist</button> </a>
   <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/2cba48adee8cd12c4697cade66118366706f3303/About_US"><button class="aboutus_button">About Us</button></a>
   <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/2cba48adee8cd12c4697cade66118366706f3303/Contact"><button class="contact_button">Contact</button> </a>
   </div>
