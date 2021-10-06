@@ -1,3 +1,7 @@
+<style>
+                            @import url('http://fonts.cdnfonts.com/css/diskoteque');
+</style>
+                
 <style> 
 header {
   height:800px;
