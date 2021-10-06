@@ -226,15 +226,15 @@ padding:30px;}
 <main>
   
   
-  <div class="people"> <a href= "https://codepen.io/NRider/full/xxrewBJ"> <div class="dangr"> <img src="https://i.imgur.com/fjBDxxv.jpg" title="click here for some smooth & chill beats" /> </div> </a>
+   <div class="people"> <a href= "https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/9c16004cece7b0643d1c3abf81bfe0154fc1b96d/Artist%20~%20dangr."> <div class="dangr"> <img src="https://i.imgur.com/fjBDxxv.jpg" title="click here for some smooth & chill beats" /> </div> </a>
     
-    <a href="https://codepen.io/NRider/full/gORNYEX"> <div class="ayashi"> <img src="https://i.imgur.com/yBG5glK.jpg" title="click here for intense racing music"/> </div> </a>
+    <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/9c16004cece7b0643d1c3abf81bfe0154fc1b96d/Artist%20~%20ayashi"> <div class="ayashi"> <img src="https://i.imgur.com/yBG5glK.jpg" title="click here for intense racing music"/> </div> </a>
       
-      <a href="https://codepen.io/NRider/full/bGRPard"> <div class="MFSIMBA"> <img src="https://i.imgur.com/pBH5QZB.jpg" title="click here for powerful breakcore music"/> </div> </a>
+      <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/9c16004cece7b0643d1c3abf81bfe0154fc1b96d/Artist%20~MFSIMBA"> <div class="MFSIMBA"> <img src="https://i.imgur.com/pBH5QZB.jpg" title="click here for powerful breakcore music"/> </div> </a>
         
-     <a href="https://codepen.io/NRider/full/XWgLZeO"> <div class="killer_kane"> <img src="https://i.imgur.com/kKD0gEd.jpg" title="click here for grimey NY greatness"/> </div> </a>
+     <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/9c16004cece7b0643d1c3abf81bfe0154fc1b96d/Artist%20~%20killer%20kane"> <div class="killer_kane"> <img src="https://i.imgur.com/kKD0gEd.jpg" title="click here for grimey NY greatness"/> </div> </a>
         
-       <a href= https://codepen.io/NRider/full/RwgzyEX> <div class="Kam_DeLa"> <img src="https://i.imgur.com/JwDIpQY.png" title="click here for some coleslaw"/> </div> </a>
+       <a href="https://htmlpreview.github.io/?https://github.com/nasirrider/PersonalWebsite/blob/9c16004cece7b0643d1c3abf81bfe0154fc1b96d/Artist%20~%20Kam%20DeLa"> <div class="Kam_DeLa"> <img src="https://i.imgur.com/JwDIpQY.png" title="click here for some coleslaw"/> </div> </a>
          </div>
       
     
@@ -245,15 +245,6 @@ padding:30px;}
     
     
   </div>
-  
-  
-  
-
-   
-  
-  </div>
- 
-  
   
  
     </main>
